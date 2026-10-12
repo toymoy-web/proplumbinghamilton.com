@@ -26,7 +26,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preload" as="image" href="/assets/img/logo.webp" type="image/webp">
-<link rel="preload" as="image" href="/assets/photos/hamilton-water-filtration-installation-1600.webp" imagesrcset="/assets/photos/hamilton-water-filtration-installation-800.webp 800w, /assets/photos/hamilton-water-filtration-installation-1600.webp 1600w" imagesizes="(max-width: 900px) 100vw, 50vw" fetchpriority="high">
+<link rel="preload" as="image" href="/assets/photos/hamilton-water-filtration-installation-1600.webp" imagesrcset="/assets/photos/hamilton-water-filtration-installation-800.webp 800w, /assets/photos/hamilton-water-filtration-installation-1600.webp 1600w" imagesizes="100vw" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -239,7 +239,8 @@
 <main id="main-content">
 
 
-<section class="service-hero">
+<section class="service-hero pagehead has-hero">
+  <img class="hero-bg" src="/assets/photos/hamilton-water-filtration-installation-1600.webp" srcset="/assets/photos/hamilton-water-filtration-installation-800.webp 800w, /assets/photos/hamilton-water-filtration-installation-1600.webp 1600w" sizes="100vw" width="1600" height="1067" alt="Under-sink water filtration system with multiple cartridges" fetchpriority="high" decoding="async">
   <div class="container service-hero-grid">
     <div>
       <span class="eyebrow">Whole-house, under-sink and RO filters · Hamilton, Ohio</span>
@@ -250,7 +251,6 @@
       </div>
     </div>
     <div class="hero-side">
-    <figure class="page-photo hero-photo"><img src="/assets/photos/hamilton-water-filtration-installation-1600.webp" srcset="/assets/photos/hamilton-water-filtration-installation-800.webp 800w, /assets/photos/hamilton-water-filtration-installation-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 45vw" width="1600" height="1067" alt="Under-sink water filtration system with multiple cartridges" fetchpriority="high" loading="eager" decoding="async"></figure>
     <aside class="side-card" aria-label="Good reasons to add a filter">
       <h2>Good reasons to add a filter</h2>
       <ul class="checklist">
@@ -261,10 +261,12 @@
   </div>
 </section>
 
-<div class="container content-grid">
-  <div class="content-main">
+<section class="sec svc-body">
+<div class="container twocol">
+  <article class="content-main">
     
     <section class="content-block">
+      
       <h2>Start with what is in the water</h2>
       <p>Hamilton's water comes from wells about 210 feet deep in the Great Miami Buried Valley Aquifer, is lime-treated and filtered at the city's plants, and is disinfected with chlorine dioxide. The city publishes its test results every year in its water quality report.</p><p>The main concern for many older homes is not the treated water but the pipe it travels through. The city has published a service-line inventory map, and older addresses can still be served by lead lines. If that is your situation, a filter certified for lead reduction is a sensible step while the line itself is replaced, which our <a href="/water-line-repair-replacement/">water line replacement</a> page covers.</p>
       
@@ -274,6 +276,7 @@
     </section>
     
     <section class="content-block">
+      
       <h2>Look for certification, not claims</h2>
       <p>A filter should be certified to the specific standard for what you want removed. For lead, look for certification to NSF/ANSI Standard 53 with lead reduction listed. For taste and odor from disinfectant, NSF/ANSI Standard 42 applies. Reverse osmosis systems are certified under NSF/ANSI Standard 58.</p><p>Certification is printed on the box and listed in the certifier's public database. A filter that makes broad claims without a certification number is not one we would install.</p>
       
@@ -283,6 +286,7 @@
     </section>
     
     <section class="content-block">
+      
       <h2>Which type of system</h2>
       
       
@@ -297,6 +301,7 @@
     </section>
     
     <section class="content-block">
+      
       <h2>Maintenance is part of the deal</h2>
       
       <ul class="checklist"><li>Change cartridges on the manufacturer's schedule, not when the water tastes off.</li><li>Write the change date on the filter housing.</li><li>Replace reverse osmosis membranes as recommended.</li><li>Sanitize whole-house housings when changing cartridges.</li></ul>
@@ -306,6 +311,7 @@
     </section>
     
     <section class="content-block">
+      
       <h2>Filters while a lead line is being replaced</h2>
       <p>Lead service line replacement can briefly disturb lead scale inside the remaining pipes. Water utilities commonly advise using a certified lead-reducing filter for drinking and cooking water for a period after a replacement and flushing the lines thoroughly. A pitcher or faucet filter certified for lead is an inexpensive way to cover that window.</p>
       
@@ -315,6 +321,7 @@
     </section>
     
     <section class="content-block">
+      
       <h2>Filtration in Hamilton and nearby</h2>
       <p>We install filters in ZIP codes 45011, 45013 and 45015. <a href="/areas/ross-township/">Well owners in Ross Township</a> most often need sediment and iron filtration ahead of any drinking water filter.</p><p>Lead-reducing filters matter most in older homes with lead or galvanized service lines, which are concentrated in German Village, Dayton Lane, Rossville and the older blocks of Lindenwald.</p>
       
@@ -331,20 +338,31 @@
       <p>Water treatment equipment is not covered by homeowners insurance.</p>
       <p><strong>Want your real number?</strong> Call (513) 796-9381 and describe what you are seeing.</p>
     </section>
-  </div>
+  </article>
 
-  <aside class="content-rail" aria-label="Call and quick help">
-    <div class="rail-card rail-cta">
-      <h2 class="rail-h">Worried about lead?</h2>
-      <p>Check the city&#39;s service-line map for your address, then call.</p>
-      <a class="btn btn-block" href="tel:+15137969381">Call (513) 796-9381</a>
-    </div>
-    <div class="rail-card">
-      <h2 class="rail-h">Have this ready when you call</h2>
-      <ul class="rail-list"><li>City water or well</li><li>What the service-line map shows</li><li>Any test results</li><li>Drinking water or whole house</li></ul>
-    </div>
-  </aside>
+  <aside class="sidecard" aria-label="Call Hamilton Pro Plumbing">
+  <div class="rail-card rail-cta">
+    <span class="kicker"><span class="em-dot" aria-hidden="true"></span>24/7 Emergency Line Open</span>
+    <h3 class="side-h">Worried about lead?</h3>
+    <p>Check the city&#39;s service-line map for your address, then call.</p>
+    <a class="btn btn-block" href="tel:+15137969381">Call (513) 796-9381</a>
+    <ul class="trust-list">
+      <li>Price confirmed before any work starts.</li>
+      <li>Phone answered 24/7, holidays included.</li>
+      <li>Same-day visits when the schedule allows.</li>
+      <li>Hamilton and nearby Butler County.</li>
+    </ul>
+    <p class="side-link">Related: <a href="/water-softener-installation-repair/">Water softeners</a>.</p>
+  </div>
+  
+  <div class="rail-card">
+    <h3 class="rail-h">Have this ready when you call</h3>
+    <ul class="rail-list"><li>City water or well.</li><li>What the service-line map shows.</li><li>Any test results.</li><li>Drinking water or whole house.</li></ul>
+  </div>
+  
+</aside>
 </div>
+</section>
 
 <section class="internal-cta">
   <div class="container">

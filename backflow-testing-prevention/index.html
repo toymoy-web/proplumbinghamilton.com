@@ -26,7 +26,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preload" as="image" href="/assets/img/logo.webp" type="image/webp">
-<link rel="preload" as="image" href="/assets/photos/hamilton-backflow-testing-prevention-1600.webp" imagesrcset="/assets/photos/hamilton-backflow-testing-prevention-800.webp 800w, /assets/photos/hamilton-backflow-testing-prevention-1600.webp 1600w" imagesizes="(max-width: 900px) 100vw, 50vw" fetchpriority="high">
+<link rel="preload" as="image" href="/assets/photos/hamilton-backflow-testing-prevention-1600.webp" imagesrcset="/assets/photos/hamilton-backflow-testing-prevention-800.webp 800w, /assets/photos/hamilton-backflow-testing-prevention-1600.webp 1600w" imagesizes="100vw" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -239,7 +239,8 @@
 <main id="main-content">
 
 
-<section class="service-hero">
+<section class="service-hero pagehead has-hero">
+  <img class="hero-bg" src="/assets/photos/hamilton-backflow-testing-prevention-1600.webp" srcset="/assets/photos/hamilton-backflow-testing-prevention-800.webp 800w, /assets/photos/hamilton-backflow-testing-prevention-1600.webp 1600w" sizes="100vw" width="1600" height="1067" alt="Backflow test gauge connected to a brass backflow preventer assembly" fetchpriority="high" decoding="async">
   <div class="container service-hero-grid">
     <div>
       <span class="eyebrow">Backflow devices and cross-connections · Hamilton, Ohio</span>
@@ -250,7 +251,6 @@
       </div>
     </div>
     <div class="hero-side">
-    <figure class="page-photo hero-photo"><img src="/assets/photos/hamilton-backflow-testing-prevention-1600.webp" srcset="/assets/photos/hamilton-backflow-testing-prevention-800.webp 800w, /assets/photos/hamilton-backflow-testing-prevention-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 45vw" width="1600" height="1067" alt="Backflow test gauge connected to a brass backflow preventer assembly" fetchpriority="high" loading="eager" decoding="async"></figure>
     <aside class="side-card" aria-label="Who usually needs a test">
       <h2>Who usually needs a test</h2>
       <ul class="checklist">
@@ -261,10 +261,12 @@
   </div>
 </section>
 
-<div class="container content-grid">
-  <div class="content-main">
+<section class="sec svc-body">
+<div class="container twocol">
+  <article class="content-main">
     
     <section class="content-block">
+      
       <h2>Why backflow protection matters</h2>
       <p>Normally water flows one way, from the main into the building. Water can reverse when pressure drops, for example when crews open a hydrant or a main breaks. With no device in place, the pressure drop can siphon water back from anything connected. A lawn system sitting in fertilized soil is the classic example.</p><p>Hamilton draws its water from wells about 210 feet deep in the Great Miami Buried Valley Aquifer. The city treats it at its North and South plants. Backflow protection keeps anything from fouling that treated water once it is in the pipes.</p>
       
@@ -274,6 +276,7 @@
     </section>
     
     <section class="content-block">
+      
       <h2>The rule behind the yearly test</h2>
       <p>Ohio Administrative Code Chapter 3745-95 calls for a test on every backflow device at least once every twelve months. Water utilities track testable devices and send reminders. The tester then reports each result to the water supplier.</p><p>A tester uses a calibrated gauge to measure pressure differences across the check valves and relief valve. If it fails, the tester rebuilds or repairs it and tests it again.</p>
       
@@ -283,6 +286,7 @@
     </section>
     
     <section class="content-block">
+      
       <h2>Types of backflow devices</h2>
       
       
@@ -297,6 +301,7 @@
     </section>
     
     <section class="content-block">
+      
       <h2>What to do about common cross-connections at home</h2>
       
       <ul class="checklist"><li>Lawn irrigation systems.</li><li>Garden hoses left submerged in a pool, bucket or sprayer.</li><li>Water-powered backup sump pumps.</li><li>Boilers with chemical treatment.</li><li>Hose-end chemical sprayers.</li></ul>
@@ -306,6 +311,7 @@
     </section>
     
     <section class="content-block">
+      
       <h2>What a failed test usually means</h2>
       <p>Most failures come from debris lodged in a check valve, worn rubber parts, or a relief valve that no longer opens at the right pressure. Construction work on a water main often sends grit through the lines that ends up in these devices.</p><p>Many devices can be rebuilt with a kit rather than replaced, which costs less. A device that is badly corroded, frozen and cracked, or discontinued is usually replaced. Freezing damages irrigation devices more than any others. Drain and winterize them each fall before the first hard frost.</p>
       
@@ -314,7 +320,18 @@
       
     </section>
     
+    <section class="content-block calls-block">
+      
+      <h2>Annual test notices and missed deadlines</h2>
+      <p>Most backflow calls start with a letter from the water supplier asking for the annual test on a lawn irrigation or commercial assembly, sometimes after the deadline has already passed. A missed test can lead the supplier to restrict service until the device passes.</p><p>Have the notice in hand when you call. The test report goes back to the water supplier, and a failed assembly can usually be repaired and retested on the same visit.</p>
+      
+      
+      
+      
+    </section>
+    
     <section class="content-block">
+      
       <h2>Backflow service in Hamilton and nearby</h2>
       <p>We test and repair backflow devices in ZIP codes 45011, 45013 and 45015, for homes and small businesses. Businesses with several devices can book them all in one visit, which our <a href="/commercial-plumbing/">commercial plumbing page</a> covers. Irrigation-<a href="/areas/liberty-township/">heavy subdivisions in Liberty Township</a> are among the most common residential test calls.</p><p>Annual tests are most common for irrigation systems in West Chester, Liberty Township and Fairfield Township subdivisions, and for commercial buildings downtown and along the Route 4 corridor.</p>
       
@@ -331,20 +348,31 @@
       <p>Testing and device maintenance are owner costs and not covered by insurance.</p>
       <p><strong>Want your real number?</strong> Call (513) 796-9381 and describe what you are seeing.</p>
     </section>
-  </div>
+  </article>
 
-  <aside class="content-rail" aria-label="Call and quick help">
-    <div class="rail-card rail-cta">
-      <h2 class="rail-h">Got a test notice?</h2>
-      <p>Have the notice handy when you call so the report goes to the right place.</p>
-      <a class="btn btn-block" href="tel:+15137969381">Call (513) 796-9381</a>
-    </div>
-    <div class="rail-card">
-      <h2 class="rail-h">Have this ready when you call</h2>
-      <ul class="rail-list"><li>The utility&#39;s test notice</li><li>Device type if known</li><li>Where the device is</li><li>Home or business</li></ul>
-    </div>
-  </aside>
+  <aside class="sidecard" aria-label="Call Hamilton Pro Plumbing">
+  <div class="rail-card rail-cta">
+    <span class="kicker"><span class="em-dot" aria-hidden="true"></span>24/7 Emergency Line Open</span>
+    <h3 class="side-h">Got a test notice?</h3>
+    <p>Have the notice handy when you call so the report goes to the right place.</p>
+    <a class="btn btn-block" href="tel:+15137969381">Call (513) 796-9381</a>
+    <ul class="trust-list">
+      <li>Price confirmed before any work starts.</li>
+      <li>Phone answered 24/7, holidays included.</li>
+      <li>Same-day visits when the schedule allows.</li>
+      <li>Hamilton and nearby Butler County.</li>
+    </ul>
+    <p class="side-link">Related: <a href="/commercial-plumbing/">Commercial plumbing</a>.</p>
+  </div>
+  
+  <div class="rail-card">
+    <h3 class="rail-h">Have this ready when you call</h3>
+    <ul class="rail-list"><li>The utility&#39;s test notice.</li><li>Device type if known.</li><li>Where the device is.</li><li>Home or business.</li></ul>
+  </div>
+  
+</aside>
 </div>
+</section>
 
 <section class="internal-cta">
   <div class="container">
